@@ -1,0 +1,299 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+a{
+    color: inherit;
+}
+
+.cabecalho{
+    background-image: url(./Assets/barbearia.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cabecalho-menu{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6vh;
+    width: 90vw;
+    font-weight: 900;
+}
+
+.cabecalho-menu-foto{
+    display: flex;
+    gap: 1vw;
+    font-size: 24px;
+    padding: 1%;
+    align-items: center;
+}
+
+.cabecalho-menu-foto-imagem{
+    width: 5vw;
+}
+
+.cabecalho-menu-itens{
+    display: flex;
+    gap: 1vw;
+    font-size: 24px;
+    padding: 1%;
+    margin-top: 3vh;
+    text-decoration: none;
+    color: white;
+}
+
+.cabecalho-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    gap: 2vh;
+    margin-top: 4vh;
+}
+
+
+.cabecalho-principal-titulo{
+    font-size: 64px;
+    text-align: center;
+    margin-bottom: 10vh;
+    margin-bottom: 6vh;
+}
+
+/*Botao*/
+
+.cabecalho-cartaz-botao{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+    width: 50vw;
+}
+
+.cabecalho-cartaz-botao-botao{
+    font-size: 24px;
+    width: 20vw;
+    padding: 1.5%;
+    background-color: #BE9344;
+    color: white;
+    text-align: center;
+}
+
+.cabecalho-cartaz-botao-botao:hover{
+    background-color: #E7AF49;
+}
+
+.cabecalho-cartaz-line{
+    font-size: 30px;
+    margin-top: 4vh;
+}
+
+.cabecalho-cartaz-combo{
+    font-size: 30px;
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+    font-weight: 700;
+    margin-top: 6vh;
+}
+
+/*Quem Somos*/
+
+.quemSomos{
+    background-color: #151515;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: justify;
+}
+
+.quemSomos-imagem-imagem{
+    margin: 10vh;
+    width : 80vh;
+    height: auto;
+    padding: 2%;
+    border-radius: 10%;
+}
+
+.quemSomos-texto{
+    padding: 5%;;
+}
+
+.quemSomos-texto-titulo{
+    margin-bottom: 2vh;
+    font-size: 48px;
+    text-align: center;
+}
+.quemSomos-texto-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2vh;
+    font-size: 22px;
+}
+
+/*Avaliação*/
+
+.avaliacao{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 5% 20%;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.avaliacao-titulo{
+    font-size: 54px;
+    vertical-align: baseline;
+    text-align: center;
+}
+
+.avaliacao-texto{
+    color: #B78D41;
+    text-align: center;
+}
+
+.avaliacao-nome{
+    color: white;
+}
+
+/*Produtos*/
+
+.produtos{
+    background-color: #151515;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.produtos-titulo{
+    margin: 2%;
+    font-size: 54px;
+}
+
+.produtos-cartaz{
+    display: flex;
+    justify-content: space-between;
+    gap: 2vw;
+}
+
+.produtos-cartaz-cartaz{
+    background-color: black;
+    width: 22vw;
+    margin-top: 2vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.produtos-cartaz-imagem{
+    width: 90%;
+    height: 45vh;
+    margin: 0px 0px 0px 0px ;
+    border-radius: 3%;
+}
+
+.produtos-cartaz-descricao{
+    margin-top: 6vh;
+}
+
+.produtos-cartaz-preco{
+    margin-top: 3vh;
+    margin-bottom: 6vh;
+    color: #B78D41;
+}
+
+/*Botao*/
+
+
+.produtos-cartaz-botao{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+    width: 60vw;
+    text-align: center;
+}
+
+.produtos-cartaz-botao-botao{
+    font-size: 24px;
+    width: 20vw;
+    padding: 1.5%;
+    background-color: #BE9344;
+    color: white;
+}
+
+.produtos-cartaz-botao-botao:hover{
+    background-color: #E7AF49;
+}
+
+.produtos-cartaz-line{
+    font-size: 30px;
+}
+
+.produtos-cartaz-combo{
+    font-size: 30px;
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+}
+
+/*Localizaçao*/
+
+.localizacao{
+    background-image: url(./Assets/Barbearia2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.localizacao-titulo{
+    font-size: 54px;
+    margin-top: 6vh;
+}
+
+.localizacao-mapa{
+    margin-top: 6vh;
+}
+
+.localizacao-botao{
+    display: flex;
+    gap: 6vw;
+    margin-top: 6vh;
+    margin-bottom: 10vh;
+}
+
+.localizacao-botao-botao{
+    font-size: 24px;
+    width: 20vw;
+    padding: 1.5%;
+    background-color: #B78D41;
+    text-align: center;
+}
+
+.localizacao-botao-botao:hover{
+    background-color: #E7AF49;
+}
+
+/*rodape*/
+
+.rodape{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 3%;
+}
